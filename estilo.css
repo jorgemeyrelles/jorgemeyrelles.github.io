@@ -28,20 +28,20 @@ p{
 
 #habilidade_tecnica{
     background-color: aliceblue;
-    line-height: 55px;
+    line-height: 40px;
     font-style: italic;
 }
 
 #habilidade_social{
     background-color: coral;
-    line-height: 55px;
+    line-height: 40px;
     font-style: italic;
     
 }
 
-#site{
+#link{
     text-align: center;
-    
+    font-size: 40px;
 }
 
 #rodape{
