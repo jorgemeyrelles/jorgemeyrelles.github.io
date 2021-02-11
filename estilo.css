@@ -1,5 +1,5 @@
 #fundo{
-    background-color: darkcyan;
+    background-color: grey;
 }
 
 .estilofoto{
@@ -11,10 +11,16 @@ h1{
 
 }
 
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 p{
-    font-size: 16px;
+    font-size: 30px;
 }
 
 #habilidade_tecnica{
