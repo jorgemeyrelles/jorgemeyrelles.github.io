@@ -2,7 +2,7 @@
     background-color: darkcyan;
 }
 
-#estilofoto{
+.estilofoto{
     border-radius: 150px;
 }
 
@@ -20,7 +20,7 @@ h3{
 }
 
 p{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 #habilidade_tecnica{
@@ -32,7 +32,7 @@ p{
     
 }
 
-#site{
+.site{
     text-align: center;
     
 }
