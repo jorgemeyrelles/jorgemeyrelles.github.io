@@ -1,0 +1,43 @@
+#fundo{
+    background-color: darkcyan;
+}
+
+#foto{
+    border-radius: 150px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+    font-size: 13px;
+}
+
+#habilidade_tecnica{
+    background-color: aliceblue;
+}
+
+#habilidade_social{
+    background-color: coral;
+    
+}
+
+#site{
+    text-align: center;
+    
+}
+
+#rodape{
+    text-align: center;
+    border-radius: 5px;
+}
