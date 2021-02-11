@@ -28,14 +28,18 @@ p{
 
 #habilidade_tecnica{
     background-color: aliceblue;
+    line-height: 55px;
+    font-style: italic;
 }
 
 #habilidade_social{
     background-color: coral;
+    line-height: 55px;
+    font-style: italic;
     
 }
 
-.site{
+#site{
     text-align: center;
     
 }
