@@ -5,6 +5,8 @@
 .estilofoto{
     border-radius: 150px;
     border: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 h1{
@@ -41,4 +43,7 @@ p{
 #rodape{
     text-align: center;
     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border: 2px;
 }
