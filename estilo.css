@@ -60,8 +60,9 @@
     }
 
     .conteudocentro{
-        display: inline-flexbox;
+        display: inline-block;
         align-content: center;
+        text-align: center;
     }
 
     #pucrio{
