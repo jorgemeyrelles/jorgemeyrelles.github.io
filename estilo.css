@@ -21,20 +21,20 @@
     border: 2px;
     border-color: black;
     border-style: solid;
-    position:absolute;
+    position:relative;
+    vertical-align: top;
     padding-top: 40px;
     padding-left: 40px;
     
 }
 .indice{
-    position: relative;
+    position: absolute;
     vertical-align: top;
     padding-top: 30px;
     padding-left: 20px;
 }
 
 #rodape{
-    align-items: center;
     border-radius: 2px;
     border-color: black;
     border-style: solid;
