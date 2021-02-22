@@ -2,6 +2,9 @@
     background-color: grey;
 }
 
+#bem_vindo{
+    font-family: 'Courier New', monospace;
+}
 .estilofoto{
     border-radius: 150px;
     border: 2px;
