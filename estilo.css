@@ -12,6 +12,9 @@
     border-color: black;
     border-style: solid;
     vertical-align: top;
+    position:absolute;
+    padding-top: 0px;
+    padding-left: 30px;
     
 }
 .indice{
