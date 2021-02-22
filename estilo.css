@@ -21,15 +21,15 @@
     border: 2px;
     border-color: black;
     border-style: solid;
-    vertical-align: top;
     position:absolute;
-    padding-top: 0px;;
+    padding-top: 40px;
+    padding-left: 40px;
     
 }
 .indice{
     position: relative;
     vertical-align: top;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 20px;
 }
 
