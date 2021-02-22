@@ -33,7 +33,7 @@
 }
 
 #rodape{
-    text-align: center;
+    align-items: center;
     border-radius: 2px;
     border-color: black;
     border-style: solid;
