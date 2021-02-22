@@ -66,6 +66,7 @@ footer{
         display: inline-block;
         align-content: center;
         text-align: center;
+        vertical-align: middle; 
     }
 
     #pucrio{
