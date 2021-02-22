@@ -7,44 +7,14 @@
     border: 2px;
     border-color: black;
     border-style: solid;
+    position: relative;
+    top: 0px;
+    left: 40px;
 }
-a{
-    text-align: center;
-}
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h3{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-p{
-    font-size: 30px;
-    text-align: justify;
-}
-
-#habilidade_tecnica{
-    background-color: aliceblue;
-    line-height: 40px;
-    font-style: italic;
-}
-
-#habilidade_social{
-    background-color: coral;
-    line-height: 40px;
-    font-style: italic;
-    
-}
-
-#link{
-    text-align: center;
-    font-size: 20px;
+.indice{
+    position: absolute;
+    top: 20px;
+    left:20px;
 }
 
 #rodape{
