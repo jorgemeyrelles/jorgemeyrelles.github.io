@@ -12,14 +12,14 @@
     border-color: black;
     border-style: solid;
     vertical-align: top;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 30px;
     position: relative;
 }
 .indice{
     position: absolute;
     vertical-align: top;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 10px;
 }
 
@@ -37,13 +37,13 @@
     align-items: center;
     width: 100%;
     min-height: 250px;
-    height: 550px;
+    height: 580px;
     overflow: auto;
   }
   .card{
       background-color: #f1f1f1;
       margin: 10px;
       min-height: 250px;
-      height: 550px;
+      height: 580px;
       text-align: center;
     }
