@@ -63,8 +63,8 @@ p{
   }
   .card{
     background-color: #f1f1f1;
-      min-width: 250px;
+      min-height: 250px;
       margin: 10px;
-      height: 100px;
+      height: 900px;
       text-align: center;
     }
