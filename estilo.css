@@ -3,12 +3,12 @@
 }
 
 #bem_vindo{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', monospace;
     font-size: 80px;
     text-align: right;
 }
 #bem_vinda{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', monospace;
     font-size: 80px;
     text-align: left;
 }
