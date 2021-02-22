@@ -22,12 +22,12 @@
     border-color: black;
     border-style: solid;
     vertical-align: top;
-    position:relative;
+    position:absolute;
     padding-top: 0px;;
     
 }
 .indice{
-    position: absolute;
+    position: relative;
     vertical-align: top;
     padding-top: 10px;
     padding-left: 20px;
