@@ -60,11 +60,13 @@ p{
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 250px;
+    height: 500px;
   }
   .card{
     background-color: #f1f1f1;
-      min-height: 250px;
+      
       margin: 10px;
-      height: 500px;
+      
       text-align: center;
     }
