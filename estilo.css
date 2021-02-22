@@ -65,8 +65,8 @@ p{
     overflow: auto;
   }
   .card{
-    background-color: #f1f1f1;
-      margin: 0px;
+      background-color: #f1f1f1;
+      margin: 10px;
       min-height: 250px;
       height: 800px;
       text-align: center;
