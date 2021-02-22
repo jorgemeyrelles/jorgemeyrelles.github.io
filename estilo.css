@@ -19,15 +19,13 @@
     border-style: solid;
     vertical-align: top;
     position:relative;
-    padding-top: 0px;
-    padding-left: 30px;
     
 }
 .indice{
     position: absolute;
     vertical-align: top;
     padding-top: 0px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #rodape{
