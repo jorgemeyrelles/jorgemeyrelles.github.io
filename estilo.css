@@ -67,3 +67,8 @@
         border-radius: 100%;
         border: 2 solid #000000;
     }
+
+    .cabecalho{
+        font-family: 'Courier New', monospace;
+        font-size: 50px;
+    }
