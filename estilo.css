@@ -41,7 +41,7 @@ footer{
     border-color: black;
     border-style: solid;
     border: 2px;
-    text-align: center;
+    align-content: center;
 }
 
 .conteudo{
