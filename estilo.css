@@ -7,14 +7,14 @@
     font-size: 110px;
     text-align: right;
     position: relative;
-    float: left;
+    
 }
 #bem_vinda{
     font-family: 'Courier New', monospace;
     font-size: 110px;
     text-align: left;
     position: relative;
-    float: right;
+    
 }
 #estilofoto{
     border-radius: 150px;
