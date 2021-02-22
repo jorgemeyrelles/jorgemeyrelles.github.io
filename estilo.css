@@ -9,14 +9,14 @@
     border-style: solid;
     vertical-align: top;
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
     position: relative;
 }
 .indice{
     position: absolute;
     vertical-align: top;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #rodape{
@@ -33,13 +33,13 @@
     align-items: center;
     width: 100%;
     min-height: 250px;
-    height: 700px;
+    height: 600px;
     overflow: auto;
   }
   .card{
       background-color: #f1f1f1;
       margin: 10px;
       min-height: 250px;
-      height: 800px;
+      height: 600px;
       text-align: center;
     }
