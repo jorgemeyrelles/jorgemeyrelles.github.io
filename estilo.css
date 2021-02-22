@@ -57,3 +57,13 @@
       height: 580px;
       text-align: center;
     }
+
+    #pucrio{
+        border-radius: 100%;
+        border: 2 solid #000000;
+    }
+
+    #trybe{
+        border-radius: 100%;
+        border: 2 solid #000000;
+    }
