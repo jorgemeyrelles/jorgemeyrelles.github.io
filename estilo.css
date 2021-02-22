@@ -30,7 +30,7 @@
 .indice{
     background-color: #D9D9D9;
     
-    border-right: 3 solid #000000;
+    border-right: 5 solid #000000;
 }
 
 #rodape{
@@ -55,5 +55,5 @@
       margin: 10px;
       min-height: 250px;
       height: 580px;
-      text-align: center;
+      /*text-align: center;*/
     }
