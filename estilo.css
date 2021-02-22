@@ -9,6 +9,7 @@
     position: relative;
     display: inline-block;
     margin-right: 10px;
+
     
 }
 #bem_vinda{
@@ -35,7 +36,7 @@
     border-right: 5 solid #000000;
 }
 
-#rodape{
+footer{
     border-radius: 2px;
     border-color: black;
     border-style: solid;
