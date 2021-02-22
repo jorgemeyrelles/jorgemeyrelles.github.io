@@ -44,6 +44,10 @@ footer{
     text-align: center;
 }
 
+header{
+    text-align: center;
+}
+
 .conteudo{
     display: block;
     flex-direction: column;
