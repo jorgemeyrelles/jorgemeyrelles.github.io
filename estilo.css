@@ -16,7 +16,7 @@
     position: relative;
     float: right;
 }
-.estilofoto{
+#estilofoto{
     border-radius: 150px;
     border: 2px;
     border-color: black;
