@@ -17,4 +17,4 @@ Utilizando:
 <img src="https://icongr.am/devicon/nodejs-original.svg?size=50&color=currentColor" alt="node" />
 
 Ambiente:
-"https://icongr.am/devicon/linux-original.svg?size=50&color=currentColor"
+<img src="https://icongr.am/devicon/linux-original.svg?size=50&color=currentColor" alt="linux" />
