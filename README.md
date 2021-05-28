@@ -4,7 +4,7 @@ Foi fruto de um dos primeiros projetos que desenvolvi no curso da escola #TRYBE.
 
 Como primeira experiência, estou apresentando este site com algumas informações pessoais e profissionais.
 
-Foram desenvolvidos com:
+Foi desenvolvido com:
 
 <img src="https://icongr.am/devicon/css3-original.svg?size=50&color=currentColor" alt="CSS"/>
 <img src="https://icongr.am/devicon/html5-original.svg?size=50&color=currentColor" alt="HMTL" />
