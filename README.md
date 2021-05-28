@@ -1,1 +1,20 @@
-# jorgemeyrelles.github.io é o primeiro site elaborado por mim aqui no GitHub. Como primeira experiência, estou apresentando este site como meu portfólio.
+# jorgemeyrelles.github.io é o primeiro site elaborado por mim aqui no GitHub.
+
+Foi fruto de um dos primeiros projetos que desenvolvi no curso da escola #TRYBE.
+
+Como primeira experiência, estou apresentando este site com algumas informações pessoais e profissionais.
+
+Foram desenvolvidos com:
+
+<img src="https://icongr.am/devicon/css3-original.svg?size=50&color=currentColor" alt="CSS"/>
+<img src="https://icongr.am/devicon/html5-original.svg?size=50&color=currentColor" alt="HMTL" />
+<img src="https://icongr.am/devicon/javascript-original.svg?size=50&color=currentColor" alt="JS" />
+
+_______________________________________________________
+Utilizando:
+<img src="https://icongr.am/devicon/git-original.svg?size=50&color=currentColor" alt="git" />
+<img src="https://icongr.am/devicon/github-original.svg?size=50&color=currentColor" alt="github" />
+<img src="https://icongr.am/devicon/nodejs-original.svg?size=50&color=currentColor" alt="node" />
+
+Ambiente:
+"https://icongr.am/devicon/linux-original.svg?size=50&color=currentColor"
