@@ -12,7 +12,7 @@ function Contact() {
   return(
     <a
       style={ styleBtn }
-      href="https://wa.me/55+5521994844035?&text=Oi!" target="blank"
+      href="https://wa.me/5521994844035?&text=Oi!" target="blank"
     >
       <img
         style={ { position: 'relative', top: '25%' } }
