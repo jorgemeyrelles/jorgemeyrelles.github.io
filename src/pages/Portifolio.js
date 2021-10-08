@@ -32,6 +32,11 @@ function Portifolio() {
             Recipe App
           </a>
         </li>
+        <li style={ styleName }>
+          <a href="https://jorgemeyrelles.github.io/moviefavorite/">
+            Favorite Movie
+          </a>
+        </li>
       </ul>
     </main>
   );
