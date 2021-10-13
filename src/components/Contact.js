@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Contact() {
-  const styleBtn = {
+  const [hover, setHover] = useState(false);
+
+  const styleBtn = (hover) => ({
     position: 'relative',
     width: '61px',
     height: '56px',
@@ -10,10 +12,14 @@ function Contact() {
     background: '#C4C4C4',
     boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.5)',
     border: '1px solid #1A1A1A',
-  };
-  return(
+    transform: !hover ? 'scale(1)' : 'scale(1.1)',
+  });
+
+  return (
     <a
-      style={ styleBtn }
+      onPointerOver={ ()=> setHover(true) }
+      onPointerOut={ () => setHover(false) }
+      style={ styleBtn(hover) }
       href="https://wa.me/5521994844035?&text=Oi!" target="blank"
     >
       <img

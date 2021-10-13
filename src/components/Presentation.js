@@ -110,9 +110,15 @@ function Presentation() {
     textAlign: 'center',
   };
 
-  const btn = {
-    color: 'white',
-    cursor: 'pointer',
+  const btn = (hover) => {
+    return ({
+      background: hover ? 'rgb(215, 215, 215)' : 'none',
+      borderRadius: '10px',
+      boxShadow: !hover ? 'none' : '0 0 15px rgba(255, 255, 255, 0.75)',
+      color: !hover ? 'white' : 'black',
+      cursor: 'pointer',
+      padding: '0 7px',
+    })
   };
 
   return(
@@ -126,7 +132,9 @@ function Presentation() {
             tabIndex="0"
             onKeyPress={ () => history.push('/portifolio') }
             onClick={ () => history.push('/portifolio') }
-            style={ btn }
+            onPointerOver={ ()=> setHover(true) }
+            onPointerOut={ () => setHover(false) }
+            style={ btn(hover) }
           >
             Portfolio
           </div>
