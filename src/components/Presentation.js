@@ -15,7 +15,7 @@ function Presentation() {
     position: 'relative',
     width: '500px',
     height: '46px',
-    left: '50%',
+    left: '55%',
     color: 'white',
     display: 'flex',
     justifyContent: 'space-between',
@@ -65,15 +65,15 @@ function Presentation() {
   };
   const styleName = {
     position: 'absolute',
-    width: '632px',
+    width: '50%',
     height: '105px',
     left: '63px',
-    top: '243px',
+    top: '203px',
 
     fontFamily: '"Raleway", sans-serif',
     fontStyle: 'normal',
     fontWeight: 'bold',
-    fontSize: '60px',
+    fontSize: '50px',
     lineHeight: '94px',
     textSlign: 'center',
 
@@ -83,8 +83,9 @@ function Presentation() {
     position: 'absolute',
     width: '632px',
     height: '40px',
-    left: '63px',
+    left: '65px',
     top: '335px',
+    textShadow: '0px 0px 15px rgba(0, 0, 0, 0.25)',
 
     fontFamily: '"Raleway", sans-serif',
     fontStyle: 'normal',

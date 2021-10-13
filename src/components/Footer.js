@@ -8,8 +8,8 @@ function Footer() {
     backgroundColor: 'green',
     width: '100%',
     height: '100px',
-    position: 'absolute',
-    top: '85.6%',
+    position: 'fixed',
+    bottom: '0',
     background: '#1A1A1A',
     fontFamily: '"Nunito", sans-serif',
     textAlign: 'center',
@@ -28,7 +28,7 @@ function Footer() {
           <img align="center" src="https://icongr.am/fontawesome/xing-square.svg?size=30&color=D7D7D7" alt="xing_jorgemeyrelles" />
         </a>
       </div>
-      <div style={ { position: 'relative', top: '45%', fontStyle: 'italic' } }>
+      <div style={ { position: 'relative', top: '30px', fontStyle: 'italic' } }>
         @2021 - All Rights reserved
       </div>
     </footer>
