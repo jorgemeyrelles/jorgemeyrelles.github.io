@@ -22,7 +22,7 @@ function ProfilePicture() {
       style={ styleImg }
     >
       <a
-        target="_blank"
+        target="blank"
         class="badge-base__link LI-simple-link"
         href="https://br.linkedin.com/in/jorgemeyrelles?trk=profile-badge"
       >

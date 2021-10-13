@@ -12,16 +12,25 @@ function Footer() {
     bottom: '0',
     background: '#1A1A1A',
     fontFamily: '"Nunito", sans-serif',
-    textAlign: 'center',
     color: 'white',
+    textAlign: '-webkit-center',
   };
+
+  const styleDiv = {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    position: 'relative',
+    top: '20%',
+    width: '300px',
+  };
+
   return(
     <footer style={ styleFooter }>
-      <div style={ { position: 'relative', top: '20%', justifyContent: 'space-evenly' } }>
-        <a href="https://linkedin.com/in/jorgemeyrelles" target="blank">
+      <div style={ styleDiv }>
+        {/* <a href="https://linkedin.com/in/jorgemeyrelles" target="blank">
           <img align="center" src="https://icongr.am/devicon/linkedin-plain.svg?size=30&color=D7D7D7" alt="https://linkedin.com/in/jorgemeyrelles" />
-        </a>
-        <a style={ { marginLeft: '50px', marginRight: '50px' } } href="https://www.facebook.com/jorge.meyrelles/" target="blank">
+        </a> */}
+        <a href="https://www.facebook.com/jorge.meyrelles/" target="blank">
           <img align="center" src="https://icongr.am/simple/facebook.svg?size=30&color=D7D7D7" alt="https://fb.com/jorge.meyrelles" />
         </a>
         <a href="https://www.xing.com/profile/Jorge_Meyrelles/cv" target="blank">

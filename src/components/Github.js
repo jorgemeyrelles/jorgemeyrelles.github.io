@@ -10,7 +10,7 @@ function Github() {
     // top: '726px',
 
     background: '#C4C4C4',
-    boxShadow: '0px 0px 15px rgba(255, 255, 255, 0.25)',
+    boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.5)',
   };
   return(
     <a
