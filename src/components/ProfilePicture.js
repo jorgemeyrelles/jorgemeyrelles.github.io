@@ -6,17 +6,17 @@ function ProfilePicture() {
     // clipPath: 'circle(50% at 50% 50%)',
     position: 'inherit',
     zIndex: '7',
-    left: '20%',
-    top: '35%',
+    left: '17%',
+    top: '40%',
     transform: 'rotate(-9.67deg)',
   };
   return(
     <div
       class="badge-base LI-profile-badge"
       data-locale="pt_BR"
-      data-size="medium"
+      data-size="large"
       data-theme="light"
-      data-type="VERTICAL"
+      data-type="HORIZONTAL"
       data-vanity="jorgemeyrelles"
       data-version="v1"
       style={ styleImg }
@@ -26,7 +26,7 @@ function ProfilePicture() {
         class="badge-base__link LI-simple-link"
         href="https://br.linkedin.com/in/jorgemeyrelles?trk=profile-badge"
       >
-        Jorge Luiz, MSc.
+        
       </a>
     </div>
               

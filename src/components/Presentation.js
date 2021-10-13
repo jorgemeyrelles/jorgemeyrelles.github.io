@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import Contact from './Contact';
 import Footer from './Footer';
 import Github from './Github';
@@ -7,6 +7,8 @@ import './presentationStyle.css';
 import ProfilePicture from './ProfilePicture';
 
 function Presentation() {
+  const history = useHistory();
+  const [hover, setHover] = useState(false);
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@600&display=swap');
   </style>
@@ -109,8 +111,9 @@ function Presentation() {
   };
 
   const btn = {
-    textDecoration: "none",
-  }
+    color: 'white',
+    cursor: 'pointer',
+  };
 
   return(
     <main style={ styleMain }>
@@ -118,9 +121,15 @@ function Presentation() {
         <nav style={ styleNav }>
           <div>About me</div>
           <div>Skills</div>
-          <Link style={ btn } to="/portifolio">
+          <div
+            role="button"
+            tabIndex="0"
+            onKeyPress={ () => history.push('/portifolio') }
+            onClick={ () => history.push('/portifolio') }
+            style={ btn }
+          >
             Portfolio
-          </Link>
+          </div>
           <div>Contact me</div>
         </nav>
       </div>
