@@ -13,6 +13,7 @@ function Contact() {
     boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.5)',
     border: '1px solid #1A1A1A',
     transform: !hover ? 'scale(1)' : 'scale(1.1)',
+    transition: 'all 0.3s ease',
   });
 
   return (

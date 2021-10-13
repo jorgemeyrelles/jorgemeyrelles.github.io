@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import img from '../img/prof.jpeg';
+import img from '../img/prof.jpeg';
 
 function ProfilePicture() {
   const [start, setStart] = useState(false);
@@ -12,7 +12,7 @@ function ProfilePicture() {
     return () => clearTimeout(timer);
   }, []);
   const styleImg = {
-    // clipPath: 'circle(50% at 50% 50%)',
+    clipPath: 'circle(50% at 50% 50%)',
     position: 'inherit',
     zIndex: '7',
     left: '17%',
@@ -22,28 +22,28 @@ function ProfilePicture() {
 
   const badge = () => {
     return (
-      <div
-        class="badge-base LI-profile-badge"
-        data-locale="pt_BR"
-        data-size="large"
-        data-theme="light"
-        data-type="HORIZONTAL"
-        data-vanity="jorgemeyrelles"
-        data-version="v1"
-        style={ styleImg }
-      >
-        <a
-          target="blank"
-          class="badge-base__link LI-simple-link"
-          href="https://br.linkedin.com/in/jorgemeyrelles?trk=profile-badge"
-        >
+      // <div
+      //   class="badge-base LI-profile-badge"
+      //   data-locale="pt_BR"
+      //   data-size="large"
+      //   data-theme="light"
+      //   data-type="HORIZONTAL"
+      //   data-vanity="jorgemeyrelles"
+      //   data-version="v1"
+      //   style={ styleImg }
+      // >
+      //   <a
+      //     target="blank"
+      //     class="badge-base__link LI-simple-link"
+      //     href="https://br.linkedin.com/in/jorgemeyrelles?trk=profile-badge"
+      //   >
           
-        </a>
-      </div>
-                
-      // <div style={ styleImg }>
-      //   <img width="350px" src={ img } alt="img profile" />
+      //   </a>
       // </div>
+                
+      <div style={ styleImg }>
+        <img width="350px" src={ img } alt="img profile" />
+      </div>
     )
   };
 

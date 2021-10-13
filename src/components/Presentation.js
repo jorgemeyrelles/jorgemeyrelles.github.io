@@ -112,12 +112,15 @@ function Presentation() {
 
   const btn = (hover) => {
     return ({
+      color: !hover ? 'white' : 'black',
+      cursor: 'pointer',
       background: hover ? 'rgb(215, 215, 215)' : 'none',
       borderRadius: '10px',
       boxShadow: !hover ? 'none' : '0 0 15px rgba(255, 255, 255, 0.75)',
-      color: !hover ? 'white' : 'black',
-      cursor: 'pointer',
-      padding: '0 7px',
+      padding: '20px 7px',
+      textAlign: 'center',
+      transition: 'all 0.3s ease',
+      width: '100px',
     })
   };
 
@@ -125,8 +128,8 @@ function Presentation() {
     <main style={ styleMain }>
       <div style={ { width: '100%', height: '50px' } }>
         <nav style={ styleNav }>
-          <div>About me</div>
-          <div>Skills</div>
+          <div style ={ { width: '100px', textAlign: 'center' } }>About me</div>
+          <div style ={ { width: '100px', textAlign: 'center' } }>Skills</div>
           <div
             role="button"
             tabIndex="0"
@@ -138,7 +141,7 @@ function Presentation() {
           >
             Portfolio
           </div>
-          <div>Contact me</div>
+          <div style ={ { width: '100px', textAlign: 'center' } }>Contact me</div>
         </nav>
       </div>
       <section style={ styleLeft }>
