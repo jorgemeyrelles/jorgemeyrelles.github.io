@@ -9,6 +9,7 @@ function Contact() {
 
     background: '#C4C4C4',
     boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.5)',
+    border: '1px solid #1A1A1A',
   };
   return(
     <a
