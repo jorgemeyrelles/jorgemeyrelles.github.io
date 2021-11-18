@@ -1,10 +1,19 @@
 import React from 'react';
-import Presentation from '../components/Presentation';
+// import Presentation from '../components/Presentation';
+import Profile from '../PortfolioContent/Home/Profile';
+import Footer from '../PortfolioContent/Home/Footer/Footer';
 // import './estilo.css';
+import './Home.css';
+import Header from '../PortfolioContent/Home/Header/Header';
 
 function Home() {
   return(
-    <Presentation />
+    <div className="home-container">
+      <Header />
+      <Profile />
+      <Footer />
+    </div>
+    // <Presentation />
     // <table border="1px" width="100%" height="100%">
     //     <tr>
     //         <td rowspan="3" width="200px" class="indice">
