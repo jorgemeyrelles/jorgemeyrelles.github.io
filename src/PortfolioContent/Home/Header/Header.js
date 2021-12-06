@@ -7,21 +7,40 @@ import '../Profile.css';
 function Header() {
   const history = useHistory();
   return (
-    <div style={ { margin: '10px 0', width: '100%', height: '50px' } }>
+    <div style={ { display: 'flex', margin: '10px 0', width: '100%', height: '50px' } }>
         <nav className="profile-options">
-          <div className="btn highlighted-btn">About me</div>
+          <div
+            role="button"
+            tabIndex="0"
+            onKeyPress={ () => history.push('/aboutme') }
+            onClick={ () => history.push('/aboutme') }
+            className="btn highlighted-btn"
+          >
+            About me
+          </div>
           <div className="btn highlighted-btn">Skills</div>
           <div
             role="button"
             tabIndex="0"
-            onKeyPress={ () => history.push('/portifolio') }
-            onClick={ () => history.push('/portifolio') }
+            onKeyPress={ () => history.push('/portfolio') }
+            onClick={ () => history.push('/portfolio') }
             className="btn highlighted-btn"
           >
             Portfolio
           </div>
           <div className="btn highlighted-btn">Contact me</div>
         </nav>
+        {/* <div style={ { position: 'absolute', right: '5%' } } className="profile-options">
+          <div
+            role="button"
+            tabIndex="0"
+            onKeyPress={ () => history.push('/') }
+            onClick={ () => history.push('/') }
+            className="btn highlighted-btn"
+          >
+            Home
+          </div>
+        </div> */}
       </div>
   );
 }

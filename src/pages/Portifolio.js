@@ -20,7 +20,7 @@ function Portifolio() {
   }
   return(
     <main style={ { position: 'absolute', textAlign: 'center', left: '35%' } }>
-      <div style={ styleTitle }>Portifolio</div>
+      <div style={ styleTitle }>Portfolio</div>
       <ul style={ { textAlign: 'center', position: 'relative', top: '50%' } }>
         <li style={ styleName }>
           <a href="https://jorgemeyrelles.github.io/triviagame/">
