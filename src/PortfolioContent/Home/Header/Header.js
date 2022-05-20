@@ -12,8 +12,8 @@ function Header() {
           <div
             role="button"
             tabIndex="0"
-            onKeyPress={ () => history.push('/aboutme') }
-            onClick={ () => history.push('/aboutme') }
+            onKeyPress={ () => {} }
+            onClick={ () => {} }
             className="btn highlighted-btn"
           >
             About me

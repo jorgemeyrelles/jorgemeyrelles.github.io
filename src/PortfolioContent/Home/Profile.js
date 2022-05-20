@@ -1,6 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 import './Profile.css';
+import { FaFacebook, FaGithub, FaXingSquare } from "react-icons/fa";
 
 // import { Container } from './styles';
 
@@ -10,25 +11,26 @@ function Profile() {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <div className="colz-icon">
-              <a href="https://www.facebook.com/jorge.meyrelles/" target="blank">
-                <img className='fa fa-facebook-square' align="center" src="https://icongr.am/simple/facebook.svg?size=30&color=D7D7D7" alt="fb_jorge.meyrelles" />
+            <div>
+              <a
+                href="https://www.facebook.com/jorge.meyrelles/"
+                target="blank"
+              >
+                <FaFacebook size="1.8em" className="colz-icon" title="fb_jorge.meyrelles" />
               </a>
-              <a href="https://www.xing.com/profile/Jorge_Meyrelles/cv" target="blank">
-                <img className='fa fa-xing-square' align="center" src="https://icongr.am/fontawesome/xing-square.svg?size=30&color=D7D7D7" alt="xing_jorgemeyrelles" />
+              <a
+                style={ { margin: '0 10px' } }
+                href="https://www.xing.com/profile/Jorge_Meyrelles/cv"
+                target="blank"
+              >
+                <FaXingSquare size="1.8em" className="colz-icon" title="xing_jorgemeyrelles" />
               </a>
-              <a href="https://github.com/jorgemeyrelles" target="blank">
-                <img className='fa fa-github-square' align="center" src="https://icongr.am/simple/github.svg?size=30&color=D7D7D7" alt="github_jorgemeyrelles" />
+              <a
+                href="https://github.com/jorgemeyrelles"
+                target="blank"
+              >
+                <FaGithub size="1.8em" className="colz-icon" title="github_jorgemeyrelles" />
               </a>
-              {/* <a href='https://www.facebook.com/jorge.meyrelles'>
-                <i className='fa fa-fa-facebook-square'></i>
-              </a>
-              <a href='https://www.xing.com/profile/Jorge_Meyrelles/cv'>
-                <i className='fa fa-fa-xing-square'></i>
-              </a>
-              <a href='https://linkedin.com/in/jorgemeyrelles'>
-                <i className='fa fa-fa-linkedin-square'></i>
-              </a> */}
             </div>
           </div>
           <div className="profile-details-name">
