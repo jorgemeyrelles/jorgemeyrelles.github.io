@@ -1,7 +1,7 @@
 import React from 'react';
-import About from '../PortfolioContent/AboutMe/About';
-import Footer from '../PortfolioContent/Home/Footer/Footer';
-import Header from '../PortfolioContent/Home/Header/Header';
+import About from '../../PortfolioContent/AboutMe';
+import Footer from '../../PortfolioContent/Home/Footer';
+import Header from '../../PortfolioContent/Home/Header';
 import './Home.css';
 
 // import { Container } from './styles';

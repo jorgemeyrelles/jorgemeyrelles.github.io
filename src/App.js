@@ -1,22 +1,19 @@
 import React from 'react';
-import Home from './pages/Home';
-import { Route, Switch } from 'react-router-dom';
-import Portifolio from './pages/Portifolio';
-// import AboutMe from './pages/AboutMe';
-// import Profile from './PortfolioContent/Home/Profile';
-// import Footer from './PortfolioContent/Home/Footer/Footer';
+// import Home from './pages/Home/index';
+// import { Route, Switch } from 'react-router-dom';
+// import Portifolio from './pages/Portfolio';
+import PortfolioContent from './PortfolioContent';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component= { Home } />
-      <Route exact path="/portfolio" component= { Portifolio } />
-      {/* <Route exact path="/aboutme" component={ AboutMe } /> */}
-    </Switch>
-    // <div>
-    //   <Profile />
-    //   <Footer />
-    // </div>
+    <div>
+      <PortfolioContent />
+    </div>
+    // <Switch>
+    //   <Route exact path="/" component={Home} />
+    //   <Route exact path="/portfolio" component={Portifolio} />
+    //   {/* <Route exact path="/aboutme" component={ AboutMe } /> */}
+    // </Switch>
   );
 }
 

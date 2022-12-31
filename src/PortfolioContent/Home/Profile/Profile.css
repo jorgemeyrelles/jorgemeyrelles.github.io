@@ -72,7 +72,7 @@
   /* background-color: aliceblue; */
   background-size: cover;
   border-radius: 50%;
-  background-image: url('../../img/prof2.jpg');
+  background-image: url('../../../assets/prof2.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }

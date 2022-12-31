@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import '../Profile.css';
+import '../Profile/Profile.css';
 
 // import { Container } from './styles';
 

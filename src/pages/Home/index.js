@@ -1,10 +1,10 @@
 import React from 'react';
 // import Presentation from '../components/Presentation';
-import Profile from '../PortfolioContent/Home/Profile';
-import Footer from '../PortfolioContent/Home/Footer/Footer';
+import Profile from '../../PortfolioContent/Home/Profile';
+import Footer from '../../PortfolioContent/Home/Footer';
 // import './estilo.css';
 import './Home.css';
-import Header from '../PortfolioContent/Home/Header/Header';
+import Header from '../../PortfolioContent/Home/Header';
 
 function Home() {
   return(
