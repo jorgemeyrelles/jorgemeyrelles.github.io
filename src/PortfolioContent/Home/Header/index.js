@@ -1,11 +1,15 @@
+/* eslint-disable import/no-cycle */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable no-use-before-define */
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React, { useState } from 'react';
 // import { useHistory } from 'react-router';
 // import '../Profile/Profile.css';
 import './Header.css';
-import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utils/commonUtils';
-import ScrollService from '../../../utils/ScrollService';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utils/commonUtils';
+import ScrollService from '../../../utils/ScrollService';
 
 // import { Container } from './styles';
 
@@ -15,32 +19,31 @@ function Header() {
 
   const updateCurrentScreen = (currentScreen) => {
     if (!currentScreen || !currentScreen.screenInView) {
-      return;
+      return false;
     }
-    let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
+    const screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
     if (screenIndex < 0) {
-      return;
+      return false;
     }
+    return screenIndex;
   };
 
-  let currentScreenSubscription = ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
+  const currentScreenSubscription = ScrollService.currentScreenBroadCaster().subscribe(updateCurrentScreen);
   console.log(currentScreenSubscription);
 
-  const getHeaderOptions = () => {
-    return (
-      TOTAL_SCREENS.map((screen, index) => (
-        <div
-          key={screen.screenName}
-          className={getHeaderOptionsClass(index)}
-          tabIndex="0"
-          onKeyDown={() => switchScreen(index, screen)}
-          onClick={() => switchScreen(index, screen)}
-        >
-          <span>{screen.screenName}</span>
-        </div>
-      ))
-    );
-  };
+  const getHeaderOptions = () => (
+    TOTAL_SCREENS.map((screen, index) => (
+      <div
+        key={screen.screenName}
+        className={getHeaderOptionsClass(index)}
+        tabIndex="0"
+        onKeyDown={() => switchScreen(index, screen)}
+        onClick={() => switchScreen(index, screen)}
+      >
+        <span>{screen.screenName}</span>
+      </div>
+    ))
+  );
 
   const getHeaderOptionsClass = (index) => {
     let classes = 'header-option';
@@ -55,7 +58,7 @@ function Header() {
   };
 
   const switchScreen = (index, screen) => {
-    let screenComponent = document.getElementById(screen.screenName);
+    const screenComponent = document.getElementById(screen.screenName);
     if (!screenComponent) {
       return;
     }
@@ -84,12 +87,11 @@ function Header() {
           <FontAwesomeIcon className='header-hamburguer-bars' icon={faBars} />
         </div>
         <div className='header-logo'>
-          <span>Jorge_</span>
+          <span>Jorge _</span>
         </div>
         <div
           className={showHeaderOption ? 'header-options show-hamburguer-options' : 'header-options'}
         >
-          {console.log(showHeaderOption, getHeaderOptions())}
           {getHeaderOptions()}
         </div>
       </div>

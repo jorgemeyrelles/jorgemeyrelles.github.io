@@ -3,6 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   height: 50vh !important;
-  min-height: 600px;
+  min-height: 670px;
   background-color: rgba(5, 5, 31, 0.849);
+}
+
+@media screen and (max-width: 898px) {
+  .home-container {
+    height: 100vh !important;
+  }
 }

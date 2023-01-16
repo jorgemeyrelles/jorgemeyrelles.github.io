@@ -1,16 +1,17 @@
 export default class Animations {
   static animations() {
-    new Animations();
+    return new Animations();
   }
 
-  fadeInScreen = (screenName) => {
-    let screen = document.getElementById(screenName);
+  fadeInScreen(screenName) {
+    const screen = document.getElementById(screenName);
 
     if (!screenName || !screen) {
-      return;
+      return false;
     }
 
     screen.style.opacity = '5';
     screen.style.transform = 'translateY(1px)';
+    return this;
   };
 }

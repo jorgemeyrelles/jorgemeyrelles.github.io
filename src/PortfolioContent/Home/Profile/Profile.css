@@ -6,7 +6,7 @@
   height: 10%;
   min-height: fit-content;
   /* background-color: rgba(5, 5, 31, 0.849); */
-  /* background-image: url(); */
+  /* background-image: url('../../../assets/bg.jpg'); */
 }
 
 .profile-parent {
@@ -42,7 +42,7 @@
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
-  font-family: 'Poppins light';
+  font-family: 'Poppins Light';
 }
 
 .profile-options .highlighted-btn {
