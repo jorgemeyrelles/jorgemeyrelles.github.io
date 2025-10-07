@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+# 👨‍💻 Jorge Meyrelles Jr. - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Deploy to GitHub Pages](https://github.com/jorgemeyrelles/jorgemeyrelles.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jorgemeyrelles/jorgemeyrelles.github.io/actions/workflows/deploy.yml)
+[![Next.js](https://img.shields.io/badge/Next.js-15.x-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC)](https://tailwindcss.com/)
 
-## Available Scripts
+> Portfolio pessoal desenvolvido com Next.js, TypeScript e TailwindCSS, showcasing meus projetos e experiência como Desenvolvedor Full Stack.
 
-In the project directory, you can run:
+🌐 **[Ver Portfolio Online](https://jorgemeyrelles.github.io)**
 
-### `npm start`
+## 📝 **Sobre o Projeto**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este é meu portfolio pessoal, uma aplicação web moderna e responsiva que apresenta:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 🎯 **Seção Hero** - Apresentação pessoal com carrossel de fotos
+- 🚀 **Projetos** - Showcase dos principais trabalhos e repositórios GitHub
+- 💼 **Experiência** - Timeline profissional e skills técnicas
+- 🛠️ **Serviços** - Competências e áreas de atuação
+- 📞 **Contato** - Formulário integrado com EmailJS e WhatsApp
+- 🌐 **Internacionalização** - Suporte a múltiplos idiomas
+- 🎨 **Tema Dinâmico** - Light/Dark mode
 
-### `npm test`
+## 🏗️ **Estrutura do Projeto**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+jorgemeyrelles.github.io/
+├── src/                          # Código fonte principal
+│   ├── app/                      # Next.js App Router
+│   │   ├── globals.css          # Estilos globais
+│   │   ├── layout.tsx           # Layout principal
+│   │   └── page.tsx             # Página inicial
+│   ├── components/               # Componentes React
+│   │   ├── ui/                  # Componentes base (shadcn/ui)
+│   │   ├── about-section.tsx    # Seção sobre
+│   │   ├── contact-section.tsx  # Formulário de contato
+│   │   ├── hero-section.tsx     # Seção principal
+│   │   ├── projects-section.tsx # Projetos
+│   │   └── ...                  # Outros componentes
+│   ├── contexts/                 # Context API
+│   │   ├── locale-context.tsx   # Internacionalização
+│   │   └── theme-context.tsx    # Tema dark/light
+│   ├── hooks/                    # Custom Hooks
+│   │   ├── use-emailjs.ts       # EmailJS para envio de emails
+│   │   ├── use-resend.ts        # Resend API (alternativo)
+│   │   └── use-toast.ts         # Sistema de notificações
+│   ├── interfaces/               # TypeScript Interfaces
+│   │   ├── contact.ts           # Tipos do formulário
+│   │   ├── email.ts             # Tipos de email
+│   │   ├── projects.ts          # Tipos de projetos
+│   │   └── index.ts             # Barrel exports
+│   └── lib/                      # Utilitários e configurações
+│       ├── config.ts            # Configurações centralizadas
+│       ├── data.ts              # Dados estáticos
+│       └── utils.ts             # Funções utilitárias
+├── public/                       # Arquivos estáticos
+│   ├── images/                  # Imagens e fotos
+│   └── .nojekyll               # Configuração GitHub Pages
+├── .github/workflows/            # CI/CD GitHub Actions
+│   └── deploy.yml              # Deploy automático
+├── .env.local                   # Variáveis de ambiente
+├── package.json                 # Dependências npm
+├── tsconfig.json               # Configuração TypeScript
+├── tailwind.config.ts          # Configuração TailwindCSS
+└── next.config.mjs             # Configuração Next.js
+```
 
-### `npm run build`
+## 🚀 **Tecnologias Utilizadas**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Frontend**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ⚡ **Next.js 15** - React framework com App Router
+- 🔷 **TypeScript** - Tipagem estática
+- 🎨 **TailwindCSS** - Framework CSS utilitário
+- 🧩 **shadcn/ui** - Biblioteca de componentes
+- 🎭 **Framer Motion** - Animações
+- 🌐 **React Hook Form** - Gerenciamento de formulários
+- 📧 **EmailJS** - Envio de emails no frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Ferramentas & Deploy**
 
-### `npm run eject`
+- 🐙 **GitHub Pages** - Hospedagem estática
+- ⚙️ **GitHub Actions** - CI/CD automatizado
+- 📱 **Responsive Design** - Mobile-first
+- 🔍 **SEO Otimizado** - Meta tags e estrutura
+- 🌙 **Dark Mode** - Tema escuro/claro
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ **Instalação e Desenvolvimento**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Pré-requisitos**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Node.js 18+
+- npm ou yarn
+- Git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### **Clonando o Repositório**
 
-## Learn More
+```bash
+git clone https://github.com/jorgemeyrelles/jorgemeyrelles.github.io.git
+cd jorgemeyrelles.github.io
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Instalando Dependências**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+# ou
+yarn install
+```
 
-### Code Splitting
+### **Configurando Variáveis de Ambiente**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Crie um arquivo `.env.local` na raiz do projeto:
 
-### Analyzing the Bundle Size
+```bash
+# Contact Information
+NEXT_PUBLIC_CONTACT_EMAIL=seu@email.com
+NEXT_PUBLIC_WHATSAPP_NUMBER=5521999999999
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# EmailJS Configuration
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
-### Making a Progressive Web App
+### **Executando em Desenvolvimento**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-### Advanced Configuration
+Acesse: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **Build para Produção**
 
-### Deployment
+```bash
+npm run build
+# ou
+yarn build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📧 **Configuração do EmailJS**
 
-### `npm run build` fails to minify
+1. Crie uma conta em [EmailJS](https://www.emailjs.com/)
+2. Configure um serviço de email (Gmail, Outlook, etc.)
+3. Crie um template de email
+4. Adicione as credenciais no `.env.local`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 **Deploy**
+
+O projeto está configurado para deploy automático no GitHub Pages:
+
+1. **Push para a branch `master`**
+2. **GitHub Actions** executa o build automaticamente
+3. **Deploy** é feito para GitHub Pages
+
+### **Deploy Manual**
+
+```bash
+npm run build
+npx gh-pages -d out
+```
+
+## 🤝 **Contribuições**
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 **Licença**
+
+Este projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 **Contato**
+
+**Jorge Meyrelles Jr.**
+
+- 🌐 Portfolio: [jorgemeyrelles.github.io](https://jorgemeyrelles.github.io)
+- 📧 Email: jotaengpuc@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/jorgemeyrelles](https://linkedin.com/in/jorgemeyrelles)
+- 🐙 GitHub: [github.com/jorgemeyrelles](https://github.com/jorgemeyrelles)
+- 📱 WhatsApp: +55 21 99484-4035
+
+---
+
+⭐ **Se este projeto te ajudou, deixe uma estrela!** ⭐
