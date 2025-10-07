@@ -49,7 +49,7 @@ export function ContactSection() {
           email: data.email,
           name: data.name,
           subject: "Obrigado pelo contato",
-          message: "E-mail enviado com sucesso! Em breve entrarei em contato.",
+          message: "E-mail enviado com sucesso!\n\nEm breve entrarei em contato.",
         });
         reset();
       } else {
