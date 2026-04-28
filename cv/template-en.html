@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume – Jorge Meyrelles Jr.</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 11px;
+        color: #1a1a1a;
+        background: #fff;
+        line-height: 1.5;
+      }
+      .page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 36px 40px;
+      }
+      .header {
+        border-bottom: 3px solid #1e3a5f;
+        padding-bottom: 14px;
+        margin-bottom: 18px;
+      }
+      .header h1 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e3a5f;
+        letter-spacing: 0.5px;
+      }
+      .header .title {
+        font-size: 13px;
+        color: #2563eb;
+        font-weight: 600;
+        margin-top: 2px;
+      }
+      .header .contact {
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        font-size: 10.5px;
+        color: #444;
+      }
+      .header .contact a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      .section {
+        margin-bottom: 18px;
+      }
+      .section-title {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #1e3a5f;
+        border-bottom: 1.5px solid #1e3a5f;
+        padding-bottom: 3px;
+        margin-bottom: 10px;
+      }
+      .summary p {
+        font-size: 10.5px;
+        color: #333;
+      }
+      .job {
+        margin-bottom: 12px;
+      }
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .job-company {
+        font-weight: 700;
+        font-size: 11px;
+        color: #1e3a5f;
+      }
+      .job-position {
+        font-size: 11px;
+        font-weight: 600;
+      }
+      .job-date {
+        font-size: 10px;
+        color: #666;
+        white-space: nowrap;
+      }
+      .job-location {
+        font-size: 10px;
+        color: #777;
+        margin-bottom: 4px;
+      }
+      .job-label {
+        font-weight: 700;
+        font-size: 10px;
+        color: #2563eb;
+        margin-top: 4px;
+      }
+      .job-text {
+        font-size: 10px;
+        color: #333;
+        margin-top: 1px;
+      }
+      .job-techs {
+        margin-top: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .tech-badge {
+        background: #e8f0fe;
+        color: #1e3a5f;
+        font-size: 9px;
+        font-weight: 600;
+        padding: 1px 6px;
+        border-radius: 3px;
+      }
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .skill-badge {
+        background: #f1f5f9;
+        color: #1e3a5f;
+        font-size: 9.5px;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 4px;
+        border: 1px solid #cbd5e1;
+      }
+      .edu {
+        margin-bottom: 8px;
+      }
+      .edu-institution {
+        font-weight: 700;
+        font-size: 11px;
+        color: #1e3a5f;
+      }
+      .edu-degree {
+        font-size: 10.5px;
+      }
+      .edu-date {
+        font-size: 10px;
+        color: #666;
+      }
+      .lang-row {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .lang-item {
+        font-size: 10.5px;
+      }
+      .lang-item strong {
+        color: #1e3a5f;
+      }
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .page {
+          padding: 20px 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER -->
+      <div class="header">
+        <h1>Jorge Meyrelles Jr.</h1>
+        <div class="title">Senior Software Engineer | Full Stack Developer</div>
+        <div class="contact">
+          <span>📍 Florianópolis, SC, Brazil</span>
+          <span>📞 +55 21 99484-4035</span>
+          <span
+            >✉
+            <a href="mailto:jotaengpuc@gmail.com">jotaengpuc@gmail.com</a></span
+          >
+          <span
+            >🔗
+            <a href="https://linkedin.com/in/jorgemeyrelles"
+              >linkedin.com/in/jorgemeyrelles</a
+            ></span
+          >
+          <span
+            >🌐
+            <a href="https://jorgemeyrelles.github.io"
+              >jorgemeyrelles.github.io</a
+            ></span
+          >
+          <span
+            >⌨
+            <a href="https://github.com/jorgemeyrelles"
+              >github.com/jorgemeyrelles</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="section summary">
+        <div class="section-title">Professional Summary</div>
+        <p>
+          Mid-Senior Software Developer with 5+ years of experience in back-end
+          and front-end, specialized in Node.js, NestJS, Java (Spring Boot),
+          ReactJs, NextJs, and Angular. Strong expertise in systems architecture
+          (DDD, Clean Architecture, SOLID), RESTful and GraphQL API integration,
+          technical documentation (Swagger/OpenAPI), unit and integration
+          testing (Jest, JUnit), relational and non-relational databases, and
+          hands-on experience with Docker, Kubernetes, and cloud environments
+          (AWS and Azure). Experienced in agile teams with national and
+          international exposure.
+        </p>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <div class="section-title">Professional Experience</div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Senior Software Engineer</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">Claro Brasil</span>
+            </div>
+            <span class="job-date">Mar/2026 – Present</span>
+          </div>
+          <div class="job-location">Florianópolis, SC, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Development of high-performance software solutions for one of the
+            largest telecommunications groups in Latin America.
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            Working as Senior Software Engineer building back-end solutions with
+            NestJS, Node.js, and Java Spring Boot, following clean architecture
+            and DDD principles to deliver scalable solutions.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">Node.js</span
+            ><span class="tech-badge">NestJS</span>
+            <span class="tech-badge">TypeScript</span
+            ><span class="tech-badge">Java</span>
+            <span class="tech-badge">Spring Boot</span
+            ><span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">Docker</span
+            ><span class="tech-badge">AWS</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Full Stack Developer</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">Portobello Grupo</span>
+            </div>
+            <span class="job-date">Sep/2025 – Mar/2026</span>
+          </div>
+          <div class="job-location">Florianópolis, SC, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Back-end development for the launch of the PlayObras application,
+            ETL maintenance, and contribution to the internal Concierge
+            platform.
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            PlayObras back-end launched within 1 month with Salesforce
+            integration and PostgreSQL database. Legacy ETL maintenance with
+            complex architecture. Endpoint adjustments and new pages added to
+            the Concierge front-end platform using ReactJs and Bootstrap.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">Java</span
+            ><span class="tech-badge">Quarkus</span>
+            <span class="tech-badge">Salesforce</span
+            ><span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">PostgreSQL</span
+            ><span class="tech-badge">React.js</span>
+            <span class="tech-badge">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Software Developer</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">WEG</span>
+            </div>
+            <span class="job-date">Aug/2024 – Sep/2025</span>
+          </div>
+          <div class="job-location">Blumenau, SC, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Development of a web system for monitoring and analyzing field work
+            (commissioning tests for transformers).
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            Web system with Next.js, Ant Design, ContextAPI, and RestAPI.
+            Backend in Node.js with TypeScript, TypeORM, and near-DDD
+            architecture. Routines with node-cron, messages via RabbitMQ, Redis,
+            and PostgreSQL database on Docker and Kubernetes.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">Next.js</span
+            ><span class="tech-badge">Node.js</span>
+            <span class="tech-badge">TypeScript</span
+            ><span class="tech-badge">TypeORM</span>
+            <span class="tech-badge">Java 17</span
+            ><span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">RabbitMQ</span
+            ><span class="tech-badge">Redis</span>
+            <span class="tech-badge">PostgreSQL</span
+            ><span class="tech-badge">Docker</span>
+            <span class="tech-badge">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Front End Web Developer</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">Fundação ABC</span>
+            </div>
+            <span class="job-date">Jul/2023 – Jul/2024</span>
+          </div>
+          <div class="job-location">Paraná, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Development of a website that receives data via RestAPI using React.
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            React, axios, ContextAPI, Redux (Ducks), GraphQL, Material UI. Task
+            management in Redmine and versioning with GitLab. WhatsApp API setup
+            on the Meta platform and automated WhatsApp service route creation.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">React.js</span
+            ><span class="tech-badge">Redux</span>
+            <span class="tech-badge">GraphQL</span
+            ><span class="tech-badge">Material UI</span>
+            <span class="tech-badge">Node.js</span
+            ><span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">RabbitMQ</span
+            ><span class="tech-badge">Docker</span>
+            <span class="tech-badge">WhatsApp API</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Systems Analyst</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">AXOR Consultoria e Gestão</span>
+            </div>
+            <span class="job-date">Jan/2023 – Jul/2023</span>
+          </div>
+          <div class="job-location">Rio de Janeiro, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Creation of Power BI dashboards, database organization, and back-end
+            development.
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            Database migration support, Python back-end development, SQL queries
+            (SQL Server and Oracle), Power BI and React dashboards for BI, task
+            automation bots with Python.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">Python</span
+            ><span class="tech-badge">Node.js</span>
+            <span class="tech-badge">React.js</span
+            ><span class="tech-badge">Power BI</span>
+            <span class="tech-badge">SQL Server</span
+            ><span class="tech-badge">Oracle</span>
+            <span class="tech-badge">Docker</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Front End Web Developer</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company">Adroit Robotics</span>
+            </div>
+            <span class="job-date">Jan/2022 – Jan/2023</span>
+          </div>
+          <div class="job-location">São Paulo, Brazil</div>
+          <div class="job-label">Goals:</div>
+          <div class="job-text">
+            Development of a website for citrus fruit farmers that receives data
+            via RestAPI using React.
+          </div>
+          <div class="job-label">Challenges:</div>
+          <div class="job-text">
+            React, axios, ContextAPI, Redux, React-query, Material UI. Task
+            tracking using GitHub issue labels.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">React.js</span
+            ><span class="tech-badge">Redux</span>
+            <span class="tech-badge">Material UI</span
+            ><span class="tech-badge">Node.js</span>
+            <span class="tech-badge">MongoDB</span
+            ><span class="tech-badge">Express.js</span>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <span class="job-position">Trainee</span>
+              <span style="color: #777"> @ </span>
+              <span class="job-company"
+                >Johannes Gutenberg-Universität Mainz</span
+              >
+            </div>
+            <span class="job-date">Aug/2018 – Mar/2019</span>
+          </div>
+          <div class="job-location">Mainz, Germany</div>
+          <div class="job-text">
+            Data generation and monitoring in a scientific research environment
+            at the Physics Institute (Max Planck Institute). Configuration of
+            experimental data analysis and processing systems.
+          </div>
+          <div class="job-techs">
+            <span class="tech-badge">Python</span
+            ><span class="tech-badge">ImageJ</span>
+            <span class="tech-badge">Data Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+          <span class="skill-badge">HTML</span
+          ><span class="skill-badge">CSS</span>
+          <span class="skill-badge">JavaScript</span
+          ><span class="skill-badge">TypeScript</span>
+          <span class="skill-badge">React.js</span
+          ><span class="skill-badge">Next.js</span>
+          <span class="skill-badge">Angular</span
+          ><span class="skill-badge">Redux</span>
+          <span class="skill-badge">GraphQL</span
+          ><span class="skill-badge">Material UI</span>
+          <span class="skill-badge">Tailwind CSS</span
+          ><span class="skill-badge">Node.js</span>
+          <span class="skill-badge">NestJS</span
+          ><span class="skill-badge">Express.js</span>
+          <span class="skill-badge">Java 17</span
+          ><span class="skill-badge">Spring Boot</span>
+          <span class="skill-badge">Quarkus</span
+          ><span class="skill-badge">Python</span>
+          <span class="skill-badge">PostgreSQL</span
+          ><span class="skill-badge">MySQL</span>
+          <span class="skill-badge">MongoDB</span
+          ><span class="skill-badge">Redis</span>
+          <span class="skill-badge">RabbitMQ</span
+          ><span class="skill-badge">TypeORM</span>
+          <span class="skill-badge">Docker</span
+          ><span class="skill-badge">Kubernetes</span>
+          <span class="skill-badge">AWS</span
+          ><span class="skill-badge">Azure</span>
+          <span class="skill-badge">Swagger / OpenAPI</span>
+          <span class="skill-badge">Unit &amp; Integration Testing</span>
+          <span class="skill-badge">Jest</span
+          ><span class="skill-badge">JUnit</span>
+          <span class="skill-badge">SOLID / DDD / Clean Code</span>
+          <span class="skill-badge">Design Patterns</span>
+          <span class="skill-badge">Power BI</span
+          ><span class="skill-badge">Git</span>
+          <span class="skill-badge">GitHub</span
+          ><span class="skill-badge">GitLab</span>
+          <span class="skill-badge">CI/CD</span>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu">
+          <span class="edu-institution">PUC Minas</span>
+          <span class="edu-date"> · Nov/2023</span>
+          <div class="edu-degree">
+            Graduate Degree (Lato Sensu) – Software Engineering
+          </div>
+        </div>
+        <div class="edu">
+          <span class="edu-institution">Trybe</span>
+          <span class="edu-date"> · Jan/2021 – Jan/2022</span>
+          <div class="edu-degree">
+            Higher Technology Course – Computer Science (Full Stack Development)
+          </div>
+        </div>
+        <div class="edu">
+          <span class="edu-institution"
+            >Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)</span
+          >
+          <span class="edu-date"> · 2007 – 2014</span>
+          <div class="edu-degree">
+            Bachelor's Degree – Materials and Metallurgical Engineering
+          </div>
+        </div>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="lang-row">
+          <div class="lang-item">🇧🇷 <strong>Portuguese</strong> – Native</div>
+          <div class="lang-item">
+            🇺🇸 <strong>English</strong> – B2/C1 (Full Professional)
+          </div>
+          <div class="lang-item">
+            🇪🇸 <strong>Spanish</strong> – B1 (Intermediate)
+          </div>
+          <div class="lang-item">
+            🇩🇪 <strong>German</strong> – A1 (Elementary)
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
