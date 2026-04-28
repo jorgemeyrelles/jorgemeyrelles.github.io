@@ -54,6 +54,14 @@ const featuredProjects = [
     githubUrl: "https://github.com/jorgemeyrelles/apiFinancas",
     technologies: ["Java 17", "Spring Boot", "MySQL", "DDD", "Lombok"],
   },
+  {
+    name: "rede-studio",
+    description:
+      "Studio para construção e visualização de topologias de rede IPv4, desenvolvido com React, TypeScript, GoJS e Tailwind CSS",
+    url: "https://jorgemeyrelles.github.io/rede-studio/#/studio",
+    githubUrl: "https://github.com/jorgemeyrelles/rede-studio",
+    technologies: ["React", "TypeScript", "GoJS", "Tailwind CSS", "Vite"],
+  },
 ];
 
 export function ProjectsSection() {
@@ -65,13 +73,13 @@ export function ProjectsSection() {
     async function fetchRepos() {
       try {
         const response = await fetch(
-          "https://api.github.com/users/jorgemeyrelles/repos?sort=updated&per_page=100"
+          "https://api.github.com/users/jorgemeyrelles/repos?sort=updated&per_page=100",
         );
         const data = await response.json();
 
         // Filter for featured projects
         const featured = data.filter((repo: GitHubRepo) =>
-          featuredProjects.some((fp) => fp.name === repo.name)
+          featuredProjects.some((fp) => fp.name === repo.name),
         );
 
         setRepos(featured);

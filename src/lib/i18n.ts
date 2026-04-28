@@ -48,17 +48,29 @@ export const translations = {
       challenges: "Desafios",
       technologies: "Tecnologias",
       jobs: {
+        claro: {
+          goals:
+            "Desenvolvimento de soluções de software de alta performance para um dos maiores grupos de telecomunicações da América Latina.",
+          challenges:
+            "Atuação como Engenheiro de Software Sênior desenvolvendo back-end com NestJS, Node.js e Java Spring Boot, seguindo princípios de arquitetura limpa e DDD para entregar soluções escaláveis.",
+        },
+        portobello: {
+          goals:
+            "Desenvolvimento de back-end para lançamento do aplicativo PlayObras, manutenção do ETL e contribuição com a plataforma interna Concierge.",
+          challenges:
+            "Back-end do PlayObras lançado em 1 mês com integração ao Salesforce e banco PostgreSQL. Manutenção do ETL legado com arquitetura complexa. Adequação de endpoints e novas páginas no front-end da plataforma Concierge com ReactJs e Bootstrap.",
+        },
         weg: {
           goals:
             "Desenvolvimento de sistema web para monitoramento e análise de trabalho de campo (ensaios de comissionamento de transformadores).",
           challenges:
-            "Desenvolvimento de sistema web com Next.js, Ant Design, ContextAPI e RestAPI. Backend em Node.js com TypeScript, TypeORM e arquitetura próxima a DDD. Inclui rotinas com node-cron, envio de mensagens via RabbitMQ e banco PostgreSQL em Docker e Kubernetes.",
+            "Desenvolvimento de sistema web com Next.js, Ant Design, ContextAPI e RestAPI. Backend em Node.js com TypeScript, TypeORM e arquitetura próxima a DDD. Inclui rotinas com node-cron, envio de mensagens via RabbitMQ, Redis e banco PostgreSQL em Docker e Kubernetes.",
         },
         fundacao: {
           goals:
             "Desenvolvimento de site que recebe dados via RestAPI utilizando React.",
           challenges:
-            "Desenvolver código de site com React, aplicando ferramentas como axios, ContextAPI, Redux (Ducks), GraphQL, Material UI. Acompanhar e criar tarefas no Redmine e realizar versionamento utilizando GitLab.",
+            "Desenvolver código de site com React, aplicando ferramentas como axios, ContextAPI, Redux (Ducks), GraphQL, Material UI. Acompanhar e criar tarefas no Redmine e realizar versionamento utilizando GitLab. Configuração do WhatsApp API na plataforma Meta e criação de rota para atendimento automatizado no WhatsApp.",
         },
         axor: {
           goals:
@@ -182,17 +194,29 @@ export const translations = {
       challenges: "Challenges",
       technologies: "Technologies",
       jobs: {
+        claro: {
+          goals:
+            "Development of high-performance software solutions for one of the largest telecommunications groups in Latin America.",
+          challenges:
+            "Working as Senior Software Engineer building back-end solutions with NestJS, Node.js, and Java Spring Boot, following clean architecture and DDD principles to deliver scalable solutions.",
+        },
+        portobello: {
+          goals:
+            "Back-end development for the launch of the PlayObras application, ETL maintenance, and contribution to the internal Concierge platform.",
+          challenges:
+            "PlayObras back-end launched within 1 month with Salesforce integration and PostgreSQL database. Legacy ETL maintenance with complex architecture. Endpoint adjustments and new pages added to the Concierge front-end platform using ReactJs and Bootstrap.",
+        },
         weg: {
           goals:
             "Development of a web system for monitoring and analyzing field work (commissioning tests for transformers).",
           challenges:
-            "Development of a web system using Next.js, Ant Design, ContextAPI, and RestAPI. Backend built with Node.js, TypeScript, and TypeORM, following a near-DDD architecture. Includes routines with node-cron, message dispatch via RabbitMQ, and a PostgreSQL database hosted on Docker and Kubernetes.",
+            "Development of a web system using Next.js, Ant Design, ContextAPI, and RestAPI. Backend built with Node.js, TypeScript, and TypeORM, following a near-DDD architecture. Includes routines with node-cron, message dispatch via RabbitMQ, Redis, and a PostgreSQL database hosted on Docker and Kubernetes.",
         },
         fundacao: {
           goals:
             "Development of a website that receives data via RestAPI using React.",
           challenges:
-            "Develop website code with React, applying tools such as axios, ContextAPI, Redux (Ducks), GraphQL, Material UI. Track and create tasks in Redmine and perform versioning using GitLab.",
+            "Develop website code with React, applying tools such as axios, ContextAPI, Redux (Ducks), GraphQL, Material UI. Track and create tasks in Redmine and perform versioning using GitLab. Setup of WhatsApp API on the Meta platform and creation of an automated WhatsApp service route.",
         },
         axor: {
           goals:

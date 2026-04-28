@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/jorge/trybe-projects/jorgemeyrelles.github.io",
+    "outputFileTracingRoot": "/home/jorge/eclipse-workspace/jorgemeyrelles.github.io",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -176,7 +176,7 @@
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
       "turbo": {
-        "root": "/home/jorge/trybe-projects/jorgemeyrelles.github.io"
+        "root": "/home/jorge/eclipse-workspace/jorgemeyrelles.github.io"
       },
       "typedRoutes": false,
       "typedEnv": false,
@@ -282,7 +282,7 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs"
   },
-  "appDir": "/home/jorge/trybe-projects/jorgemeyrelles.github.io",
+  "appDir": "/home/jorge/eclipse-workspace/jorgemeyrelles.github.io",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
